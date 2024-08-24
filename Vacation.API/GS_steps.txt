@@ -1,0 +1,138 @@
+		--- DATA
+// - add Data folder.
+- I will create a class/classes simulating a db. it will actually be an in-memory db.
+- once I complete methods, I will extract the interface and extend the interface. 
+- I will also use the interface for the db connection. 
+
+		--- Permissions
+- first we will have no restrictions regarding permissions
+- after the api is working fine we will introduce users, roles and permissions
+- most probably we will store user name and encrypted password in db and also use jwt in request headers
+
+		--- Repositories:
+- List of non-working days, it includes weekends and public holidays // in-memory: done
+- employees 
+- organizational_units
+- vacation_requests
+- vacation_approvals
+- vacation_approval_workflows
+
+		--- Models:
+- Employee 
+(probation-period-expiration-date, start-date in the middle of the year, isCurrentEmployeem, leaveDate if not current employee)
+- OrganizationalUnit
+- VacationRequest (status depends on VacationApproval?)
+- VacationApproval
+- VacationApprovalWorkflow
+
+		--- Repositories added after adding permissions:
+- permission_tags (I might leave it for the very end, its purpose is to help organizing when there will be too many permissions)
+- permissions
+- permissions_tags
+- employees_permissions
+- roles
+- employees_roles
+
+
+
+		--- Models added after adding permissions:
+- PermissionTag
+- Permission
+- Role
+
+		--- DTOs
+- IsWorkingDayDTO
+
+
+
+		--- some ideas: 
+- Somewhere I need a logic of calculating number of working days given vacation start-date and end-date.
+- I need a method of calculating first non-working day after vacation end-date, (same for start date)
+for cases if an employee indicates as an end-date a non-working day. I should turn each request dates (start, end)
+into standardized one, so that start date and end dates are always working days. start-date is included in vacation, 
+end-date is not, end-date is effectively the date when employee comes back to office from vacation.
+
+
+
+		--- edge cases:
+- what happens when vacation starts in one year, but ends in another? I might need to prioritize the start-date of vacation.
+- what if someone doesn't have enough days for a vacation? 
+I assume the request needs to be split in two parts. One will be vacation withing allowed range. 
+another will be a separate, maybe I will need additional type like unpaid-leave?
+I assume it is good to have a comment 
+- probation period handling
+- Sick leaves could be added here as well at a later stage, though it might be something hr/direct manager could fill in. For STAGE 2.
+- handle employees who left, just for sake of not accruing vacation days even after they left.
+- do I need to track employees moving from one department to another. I don't thing it is needed initially. 
+I might just focus where an employee is currently, to determine who has to approve vacation-request.
+
+
+
+
+		--- what data do I need from API:
+
+1. check if date is working/non-working; 
+
+verb: get;
+uri: api/non-working-days/{dateString}
+provide: date; 
+returns: a separate IsWorkingDayDTO {date: Date, isWorkingDay: bool}
+
+
+2. get all non-working days
+
+verb: get;
+uri: api/non-working-days/{year}
+provide: year;
+returns: json, list of dates
+
+	-- vacations
+
+3. get all vacations 
+4. get all vacations by employee
+
+5. get all vacations YTD
+6.1 get all vacations YTD by employee
+6.2 get all vacations YTD by organization-unit
+
+
+7. get all vacations for a specific year
+8.1 get all vacations for a specific year by employee
+8.2 get all vacations for a specific year by organization-unit
+8.3 get all vacations for a specific year by organization-units (when also want to include child units)
+
+9. get all vacations for a period (start-date to end-date)
+10.1 get all vacations for a period (start-date to end-date) by employee
+10.2 get all vacations for a period (start-date to end-date) by organization-unit
+10.2 get all vacations for a period (start-date to end-date) by organization-units (when also want to include child units)
+
+** - what is the logic of filtering for a period if only part of vacation falls into it?
+	period-start <= actual-start <= period-end ||
+	period-start <= actual-end <= period-end ||
+	(actual-start <= period-start && period-end <= actual-end)
+
+
+? should I have endpoints for statistic or should I retrieve data and generate statistic in an App
+I think there should be an endpoint for a general statistic in case of a particular employees. 
+For example, I thing in YTD case it makes sense to return summary of Employee stat 
+	(used vacation days, 
+	remaining vacation days, 
+	approved vacation days but not used, 
+	planned vacation days-any status other then approved/rejected)
+But on the other hand, no, I should just get the data here, and the rest is for a business logic of an App, which will use API.
+
+in order for the app to handle the task, it will also need access to employee information. 
+I need to double-check, but I need to create endpoints for employee data here as well.
+
+	-- employees
+
+21. get employees
+22. get employee
+23. get currentEmployees
+24. get employee by id
+25. get current-employees by organization-unit
+26. get current-employees by manager-id
+etc
+
+	-- organization-units
+31. get organization-units
