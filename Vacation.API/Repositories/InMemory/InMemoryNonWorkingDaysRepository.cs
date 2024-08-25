@@ -1,6 +1,6 @@
-﻿using Vacation.API.Data.Repositories;
+﻿using Vacation.API.Repositories.Repositories;
 
-namespace Vacation.API.Data.InMemory
+namespace Vacation.API.Repositories.InMemory
 {
     public class InMemoryNonWorkingDaysRepository : INonWorkingDaysRepository
     {

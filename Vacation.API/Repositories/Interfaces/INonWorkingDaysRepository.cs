@@ -1,4 +1,4 @@
-﻿namespace Vacation.API.Data.Repositories
+﻿namespace Vacation.API.Repositories.Repositories
 {
     public interface INonWorkingDaysRepository
     {
