@@ -76,7 +76,7 @@ I might just focus where an employee is currently, to determine who has to appro
 verb: get;
 uri: api/non-working-days/{dateString}
 provide: date; 
-returns: a separate IsWorkingDayDTO {date: Date, isWorkingDay: bool}
+returns: a separate DayStatusDto {date: DateOnly, isWorkingDay: bool}
 
 
 2. get all non-working days
@@ -136,3 +136,12 @@ etc
 
 	-- organization-units
 31. get organization-units
+
+
+
+
+-------------------------------------------------------------------------------------
+
+
+	--- --- checks for later:
+1. do I need an overloading constructor accepting 'string date' in DayStatusDTO? remove ctor if not.

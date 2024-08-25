@@ -1,12 +1,109 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\controllers\\testfirstapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:controllers\\testfirstapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\models\\dtos\\daystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:models\\dtos\\daystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\gs_steps.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:gs_steps.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\repositories\\inmemory\\inmemorynonworkingdaysrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:repositories\\inmemory\\inmemorynonworkingdaysrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwBYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:04:07.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GS_steps.txt",
+              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\GS_steps.txt",
+              "RelativeDocumentMoniker": "GS_steps.txt",
+              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\GS_steps.txt",
+              "RelativeToolTip": "GS_steps.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-25T08:28:14.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestFirstApiController.cs",
+              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Controllers\\TestFirstApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestFirstApiController.cs",
+              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Controllers\\TestFirstApiController.cs*",
+              "RelativeToolTip": "Controllers\\TestFirstApiController.cs*",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T08:27:46.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DayStatusDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Models\\Dtos\\DayStatusDTO.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\DayStatusDTO.cs",
+              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Models\\Dtos\\DayStatusDTO.cs",
+              "RelativeToolTip": "Models\\Dtos\\DayStatusDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T12:06:21.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InMemoryNonWorkingDaysRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Repositories\\InMemory\\InMemoryNonWorkingDaysRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\InMemory\\InMemoryNonWorkingDaysRepository.cs",
+              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Repositories\\InMemory\\InMemoryNonWorkingDaysRepository.cs",
+              "RelativeToolTip": "Repositories\\InMemory\\InMemoryNonWorkingDaysRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T09:23:49.552Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
