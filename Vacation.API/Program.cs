@@ -1,5 +1,7 @@
 using Vacation.API.Repositories.InMemory;
 using Vacation.API.Repositories.Repositories;
+using Vacation.API.Services;
+using Vacation.API.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,8 @@ builder.Services.AddSwaggerGen();
 
 // gs: for dependency injection of an implementation. Delete this comment later.
 builder.Services.AddSingleton<INonWorkingDaysRepository, InMemoryNonWorkingDaysRepository>();
+// gs: change controller dependency to this:
+builder.Services.AddSingleton<IWorkingDayService, WorkingDayService>();
 
 var app = builder.Build();
 

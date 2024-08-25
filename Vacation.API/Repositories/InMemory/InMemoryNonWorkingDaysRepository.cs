@@ -20,14 +20,20 @@ namespace Vacation.API.Repositories.InMemory
             return Task.FromResult(_nonWorkingDays.AsEnumerable());
         }
 
-        public Task<bool> IsNonWorkingDay(DateOnly day)
+        public Task<IEnumerable<DateOnly>> GetNonWorkingDaysByYearAsync(int year)
         {
-            return Task.FromResult(_nonWorkingDays.Contains(day));
+            var result = _nonWorkingDays.Where(date => date.Year == year);
+            return Task.FromResult(result);
         }
 
-        public Task<bool> IsWorkingDay(DateOnly day)
+        public Task<bool> IsNonWorkingDay(DateOnly date)
         {
-            return Task.FromResult(!_nonWorkingDays.Contains(day));
+            return Task.FromResult(_nonWorkingDays.Contains(date));
+        }
+
+        public Task<bool> IsWorkingDay(DateOnly date)
+        {
+            return Task.FromResult(!_nonWorkingDays.Contains(date));
         }
     }
 }
