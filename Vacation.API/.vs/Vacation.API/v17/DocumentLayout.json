@@ -42,24 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ListOfNonWorkingDays.cs",
-              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Repositories\\InMemory\\ListOfNonWorkingDays.cs",
-              "RelativeDocumentMoniker": "Repositories\\InMemory\\ListOfNonWorkingDays.cs",
-              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Repositories\\InMemory\\ListOfNonWorkingDays.cs",
-              "RelativeToolTip": "Repositories\\InMemory\\ListOfNonWorkingDays.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwAsAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T16:36:47.273Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,6 +63,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NonWorkingDaysController.cs",
+              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Controllers\\NonWorkingDaysController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NonWorkingDaysController.cs",
+              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Controllers\\NonWorkingDaysController.cs",
+              "RelativeToolTip": "Controllers\\NonWorkingDaysController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:32:32.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListOfNonWorkingDays.cs",
+              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Repositories\\InMemory\\ListOfNonWorkingDays.cs",
+              "RelativeDocumentMoniker": "Repositories\\InMemory\\ListOfNonWorkingDays.cs",
+              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Repositories\\InMemory\\ListOfNonWorkingDays.cs",
+              "RelativeToolTip": "Repositories\\InMemory\\ListOfNonWorkingDays.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T16:36:47.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "INonWorkingDaysRepository.cs",
               "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Repositories\\Interfaces\\INonWorkingDaysRepository.cs",
@@ -85,19 +98,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T15:53:26.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NonWorkingDaysController.cs",
-              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Controllers\\NonWorkingDaysController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NonWorkingDaysController.cs",
-              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Controllers\\NonWorkingDaysController.cs",
-              "RelativeToolTip": "Controllers\\NonWorkingDaysController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAcwB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:32:32.336Z",
               "EditorCaption": ""
             },
             {

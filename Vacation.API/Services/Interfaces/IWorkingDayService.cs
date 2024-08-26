@@ -6,8 +6,8 @@
 
         Task<IEnumerable<DateOnly>> GetNonWorkingDaysByYearAsync(int year);
 
-        Task<bool> IsNonWorkingDay(string dateString);
+        Task<bool> IsNonWorkingDay(DateOnly date);
 
-        Task<bool> IsWorkingDay(string dateString);
+        Task<bool> IsWorkingDay(DateOnly date);
     }
 }

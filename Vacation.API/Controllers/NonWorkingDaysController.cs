@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic;
+using System.Net;
+using Vacation.API.Models;
 using Vacation.API.Models.Dtos;
 using Vacation.API.Services.Interfaces;
 
@@ -15,23 +19,77 @@ namespace Vacation.API.Controllers
             _workingDayService = workingDayService;
         }
 
-        [HttpGet("check-date-status/{dateString}")]
-        public async Task<DayStatusDTO> checkDateStatusAsync(string dateString)
+        [HttpGet("status/{dateString}")]
+        public async Task<ActionResult<APIResponse>> CheckDateStatusAsync(string dateString)
         {
-            bool isWorkingDayValue = await _workingDayService.IsWorkingDay(dateString);
-            return new DayStatusDTO(dateString, isWorkingDayValue);
+            APIResponse response = new();
+
+            try
+            {
+                if (!DateOnly.TryParse(dateString, out var date))
+                {
+                    response.StatusCode = HttpStatusCode.BadRequest;
+                    response.IsSuccess = false;
+                    response.ErrorMessages.Add($"invalid data format: {dateString}");
+                    return response;
+                }
+
+                bool isWorkingDayValue = await _workingDayService.IsWorkingDay(date);
+                response.StatusCode = HttpStatusCode.OK;
+                response.Result = new DayStatusDTO(dateString, isWorkingDayValue);
+                return response;
+            }
+            catch (Exception ex)
+            {
+                return GeneralErrorResponse(ex, response);
+            }
         }
 
         [HttpGet]
-        public async Task<IEnumerable<DateOnly>> getAllNonWorkingDaysByYearAsync()
+        public async Task<ActionResult<APIResponse>> GetAllNonWorkingDaysByYearAsync()
         {
-            return await _workingDayService.GetAllNonWorkingDaysAsync();
+            APIResponse response = new();
+            try
+            {
+                response.Result = await _workingDayService.GetAllNonWorkingDaysAsync();
+                response.StatusCode = HttpStatusCode.OK;
+                return response;
+            }
+            catch (Exception ex)
+            {
+                return GeneralErrorResponse(ex, response);
+            }
         }
 
-        [HttpGet("{year:int}")]
-        public async Task<IEnumerable<DateOnly>> getAllNonWorkingDaysAsync(int year)
+        [HttpGet("{year}")]
+        public async Task<ActionResult<APIResponse>> GetAllNonWorkingDaysAsync(string year)
         {
-            return await _workingDayService.GetNonWorkingDaysByYearAsync(year);
+            APIResponse response = new();
+            try
+            {
+                if (!int.TryParse(year, out var intYear))
+                {
+                    response.StatusCode = HttpStatusCode.BadRequest;
+                    response.IsSuccess = false;
+                    response.ErrorMessages.Add($"invalid format for year: {year}");
+                    return response;
+                }
+                response.Result = await _workingDayService.GetNonWorkingDaysByYearAsync(intYear);
+                response.StatusCode = HttpStatusCode.OK;
+                return response;
+            }
+            catch (Exception ex)
+            {
+                return GeneralErrorResponse(ex, response);
+            }
+        }
+
+        private APIResponse GeneralErrorResponse(Exception exception, APIResponse response)
+        {
+            response.StatusCode = HttpStatusCode.InternalServerError;
+            response.IsSuccess = false;
+            response.ErrorMessages.Add($"something went wrong: {exception.Message}");
+            return response;
         }
     }
 }

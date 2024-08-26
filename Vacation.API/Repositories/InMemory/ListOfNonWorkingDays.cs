@@ -5,7 +5,7 @@
         internal static readonly HashSet<string> _all =
 
         [
-            // public holidays
+            // public holidays 2024
             "2024-01-01", // New Year’s Day
             "2024-01-07", // Orthodox Christmas
             "2024-02-19", // St. George’s Day

@@ -23,21 +23,13 @@ namespace Vacation.API.Services
             return await _nonWorkingDaysRepository.GetNonWorkingDaysByYearAsync(year);
         }
 
-        public async Task<bool> IsNonWorkingDay(string dateString)
+        public async Task<bool> IsNonWorkingDay(DateOnly date)
         {
-            if (!DateOnly.TryParse(dateString, out var date))
-            {
-                throw new ArgumentException("invalid date format", nameof(dateString));
-            }
             return await _nonWorkingDaysRepository.IsNonWorkingDay(date);
         }
 
-        public async Task<bool> IsWorkingDay(string dateString)
+        public async Task<bool> IsWorkingDay(DateOnly date)
         {
-            if (!DateOnly.TryParse(dateString, out var date))
-            {
-                throw new ArgumentException("invalid date format", nameof(dateString));
-            }
             return await _nonWorkingDaysRepository.IsWorkingDay(date);
         }
     }

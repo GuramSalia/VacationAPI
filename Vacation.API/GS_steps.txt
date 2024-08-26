@@ -19,7 +19,7 @@
 
 		--- Models:
 - Employee 
-(probation-period-expiration-date, start-date in the middle of the year, isCurrentEmployeem, leaveDate if not current employee)
+(probation-period-expiration-date, employment-start-date in the middle of the year, isCurrentEmployee, comapanyleaveDate if not current employee)
 - OrganizationalUnit
 - VacationRequest (status depends on VacationApproval?)
 - VacationApproval
@@ -145,3 +145,4 @@ etc
 
 	--- --- checks for later:
 1. do I need an overloading constructor accepting 'string date' in DayStatusDTO? remove ctor if not.
+2. add logging 
