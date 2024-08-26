@@ -86,6 +86,11 @@ namespace Vacation.API.Controllers
 
         private APIResponse GeneralErrorResponse(Exception exception, APIResponse response)
         {
+            Type exceptionType = exception.GetType();
+            string exceptionTypeName = exceptionType.Name;
+            // maybe I don't want to show to the user the exception type. I could do it by adding name to ErrorMessage string.
+            // maybe I should just log it when I have implemented a logger.
+
             response.StatusCode = HttpStatusCode.InternalServerError;
             response.IsSuccess = false;
             response.ErrorMessages.Add($"something went wrong: {exception.Message}");

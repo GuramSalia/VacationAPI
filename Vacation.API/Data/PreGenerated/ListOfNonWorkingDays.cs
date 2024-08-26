@@ -1,4 +1,4 @@
-﻿namespace Vacation.API.Repositories.InMemory
+﻿namespace Vacation.API.Data.PreGenerated
 {
     internal class ListOfNonWorkingDays
     {

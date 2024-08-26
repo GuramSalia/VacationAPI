@@ -1,4 +1,5 @@
-﻿using Vacation.API.Repositories.Repositories;
+﻿using Vacation.API.Data.PreGenerated;
+using Vacation.API.Repositories.Repositories;
 
 namespace Vacation.API.Repositories.InMemory
 {
