@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Vacation.API.Repositories.InMemory;
 using Vacation.API.Repositories.Repositories;
 using Vacation.API.Services;
@@ -5,21 +6,28 @@ using Vacation.API.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+//gs: add versions to API
+builder.Services.AddApiVersioning(option =>
+{
+    option.AssumeDefaultVersionWhenUnspecified = true;
+    option.DefaultApiVersion = new ApiVersion(1, 0);
+    option.ReportApiVersions = true;
+});
+builder.Services.AddVersionedApiExplorer(option =>
+{
+    option.GroupNameFormat = "'v'VVV";
+    option.SubstituteApiVersionInUrl = true;
+});
 
-// gs: for dependency injection of an implementation. Delete this comment later.
+// gs: For injecting dependencies
 builder.Services.AddSingleton<INonWorkingDaysRepository, InMemoryNonWorkingDaysRepository>();
-// gs: change controller dependency to this:
 builder.Services.AddSingleton<IWorkingDayService, WorkingDayService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

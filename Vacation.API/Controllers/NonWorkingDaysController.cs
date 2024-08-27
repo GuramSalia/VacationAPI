@@ -8,8 +8,9 @@ using Vacation.API.Services.Interfaces;
 
 namespace Vacation.API.Controllers
 {
-    [Route("api/non-working-days")]
+    [Route("api/v{version:apiVersion}/non-working-days")]
     [ApiController]
+    [ApiVersion("1.0")]
     public class NonWorkingDaysController : ControllerBase
     {
         private readonly IWorkingDayService _workingDayService;

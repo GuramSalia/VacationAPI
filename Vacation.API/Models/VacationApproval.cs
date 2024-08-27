@@ -9,7 +9,7 @@ namespace Vacation.API.Models
 
         public Employee Approver { get; set; } = new Employee();
 
-        public DateTime ApprovalDate { get; set; } = new DateTime();
+        public DateTime? ApprovalDate { get; set; }
 
         public Decision Decision { get; set; } = Decision.Pending;
 

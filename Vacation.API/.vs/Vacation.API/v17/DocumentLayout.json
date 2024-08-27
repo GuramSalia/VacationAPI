@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\models\\organizationalunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:models\\organizationalunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\controllers\\nonworkingdayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:controllers\\nonworkingdayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADAAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:26:14.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrganizationalUnit.cs",
-              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Models\\OrganizationalUnit.cs",
-              "RelativeDocumentMoniker": "Models\\OrganizationalUnit.cs",
-              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Models\\OrganizationalUnit.cs",
-              "RelativeToolTip": "Models\\OrganizationalUnit.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA2wBsAAAAYAAAA",
+              "Title": "NonWorkingDaysController.cs",
+              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Controllers\\NonWorkingDaysController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NonWorkingDaysController.cs",
+              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Controllers\\NonWorkingDaysController.cs",
+              "RelativeToolTip": "Controllers\\NonWorkingDaysController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwAwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:13:30.124Z",
+              "WhenOpened": "2024-08-27T07:31:19.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "Models\\Role.cs",
-              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Models\\Role.cs",
-              "RelativeToolTip": "Models\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:03:48.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Position.cs",
-              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Models\\Position.cs",
-              "RelativeDocumentMoniker": "Models\\Position.cs",
-              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Models\\Position.cs",
-              "RelativeToolTip": "Models\\Position.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:53:40.484Z",
+              "WhenOpened": "2024-08-27T07:21:04.427Z",
               "EditorCaption": ""
             }
           ]
