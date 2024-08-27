@@ -9,21 +9,10 @@
 - after the api is working fine we will introduce users, roles and permissions
 - most probably we will store user name and encrypted password in db and also use jwt in request headers
 
-		--- Repositories:
-- List of non-working days, it includes weekends and public holidays // in-memory: done
-- employees 
-- organizational_units
-- vacation_requests
-- vacation_approvals
-- vacation_approval_workflows
-
-		--- Models:
-- Employee 
-(probation-period-expiration-date, employment-start-date in the middle of the year, isCurrentEmployee, comapanyleaveDate if not current employee)
+		-- models
+- Role (id, name, description, IEnumarable<Employee> EmployeesWithRole)
+- Position (id, name, description)
 - OrganizationalUnit
-- VacationRequest (status depends on VacationApproval?)
-- VacationApproval
-- VacationApprovalWorkflow
 
 		--- Repositories added after adding permissions:
 - permission_tags (I might leave it for the very end, its purpose is to help organizing when there will be too many permissions)
@@ -87,7 +76,7 @@ provide: year;
 returns: json, list of dates
 
 	-- vacations
-
+	- GET
 3. get all vacations 
 4. get all vacations by employee
 

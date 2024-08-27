@@ -6,6 +6,7 @@ namespace Vacation.API.Models.Enums
     {
         Approved,
         Rejected,
-        Pending
+        Pending,
+        Withdrawn
     }
 }

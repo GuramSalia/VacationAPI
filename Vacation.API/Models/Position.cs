@@ -7,5 +7,6 @@
         public string? Description { get; set; }
         public DateOnly CreatedAt { get; set; }
         public DateOnly UpdatedAt { get; set; }
+        public bool HasPositionBasedVacationApprovalFlow { get; set; } = false;
     }
 }

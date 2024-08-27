@@ -14,6 +14,6 @@
         public DateOnly? CompanyLeaveDate { get; set; }
         public DateOnly CreatedAt { get; set; }
         public DateOnly UpdatedAt { get; set; }
-        public ICollection<Role> EmployeeRoles { get; set; } = new List<Role>();
+        public ICollection<EmployeeRole> EmployeeRoles { get; set; } = new List<EmployeeRole>();
     }
 }
