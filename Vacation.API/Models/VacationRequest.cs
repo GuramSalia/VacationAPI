@@ -4,7 +4,7 @@ namespace Vacation.API.Models
 {
     public class VacationRequest
     {
-        public int Id { get; set; }
+        public int VacationRequestId { get; set; }
         public Employee Employee { get; set; } = new Employee();
         public DateOnly RequestDate { get; set; } = DateOnly.FromDateTime(DateTime.Now);
         public DateOnly VacationStartDate { get; set; }
@@ -13,5 +13,8 @@ namespace Vacation.API.Models
         public DateOnly NormalizedEndDate { get; set; }
         public LeaveType LeaveType { get; set; }
         public string? Description { get; set; }
+        public ApprovalWorkFlow ApprovalWorkFlow { get; set; } = new ApprovalWorkFlow();
+        public ApprovalWorkFlowStep? CurrentStep { get; set; }
+        public bool IsWithdrawn { get; set; } = false;
     }
 }

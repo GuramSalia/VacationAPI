@@ -10,7 +10,7 @@ namespace Vacation.API.Repositories.InMemory
         public InMemoryNonWorkingDaysRepository()
         {
             // add non working days to _nonWorkingDays
-            foreach (string day in ListOfNonWorkingDays._all)
+            foreach (string day in NonWorkingDaysDbMock._all)
             {
                 _nonWorkingDays.Add(DateOnly.Parse(day));
             }

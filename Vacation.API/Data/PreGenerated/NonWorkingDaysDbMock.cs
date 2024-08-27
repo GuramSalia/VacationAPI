@@ -1,6 +1,6 @@
 ﻿namespace Vacation.API.Data.PreGenerated
 {
-    internal class ListOfNonWorkingDays
+    internal class NonWorkingDaysDbMock
     {
         internal static readonly HashSet<string> _all =
 

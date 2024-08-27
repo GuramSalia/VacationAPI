@@ -1,4 +1,4 @@
-﻿namespace Vacation.API.Models
+﻿namespace Vacation.API.Models.JoinEntities
 {
     public class EmployeeRole
     {

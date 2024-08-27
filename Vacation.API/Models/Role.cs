@@ -1,4 +1,6 @@
-﻿namespace Vacation.API.Models
+﻿using Vacation.API.Models.JoinEntities;
+
+namespace Vacation.API.Models
 {
     public class Role
     {

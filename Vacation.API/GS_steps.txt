@@ -9,10 +9,14 @@
 - after the api is working fine we will introduce users, roles and permissions
 - most probably we will store user name and encrypted password in db and also use jwt in request headers
 
+
+======================
 		-- models
 - Role (id, name, description, IEnumarable<Employee> EmployeesWithRole)
 - Position (id, name, description)
 - OrganizationalUnit
+
+=====================
 
 		--- Repositories added after adding permissions:
 - permission_tags (I might leave it for the very end, its purpose is to help organizing when there will be too many permissions)
