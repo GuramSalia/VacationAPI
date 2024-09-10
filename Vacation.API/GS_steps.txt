@@ -1,3 +1,27 @@
+QUESTIONS:
+1. Do I need separate classes in Model and Data folders.
+
+2. approval process: PROBLEM -> if there is one approver, this might become pain, when this person is busy
+solution could be a set of approvers, this however could result complicated business logic. What is the best
+compromize so that it is simple and robust and flexible at the same time.
+
+This could be solved by having an approver with a delegate, 
+who could approve in case the approver has no time.
+But what if one dep head would like to have several delegates based on diffenernt teams? see2.1.
+If I have an Approver containing lists of Employees and Roles, I could have a 
+
+2.1 in ApprovalWorkFlowStep should the approver be an employee or a class Approver {list<Employee>, List<Role>}?
+2.2
+!! - I could have a list of approvers generated 
+and during each request employee selects the person who can approve, 
+
+
+3. In Employee:
+3.1 do I need IsCurrentEmployee if I have CompanyLeaveDate? but what if I have employees who left and started again? 
+It means I might need a separate table of which Employees have joined (+ when) an which have left (+when)
+
+
+
 		--- DATA
 // - add Data folder.
 - I will create a class/classes simulating a db. it will actually be an in-memory db.

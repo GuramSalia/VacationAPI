@@ -4,12 +4,12 @@ namespace Vacation.API.Data.PreGenerated
 {
     internal class ApprovalWorkFlowStepsDbMock
     {
-        internal static List<ApprovalWorkFlowStep> _approvalWorkFlowSteps =
+        internal static List<ApprovalStep> _approvalWorkFlowSteps =
         [
-            new ApprovalWorkFlowStep
+            new ApprovalStep
             {
-                ApprovalWorkFlowStepId = 1,
-                ApprovalWorkFlow = ApprovalWorkFlowsDbMock._approvalWorkFlows.First(w => w.WorkFlowId == 3),
+                Id = 1,
+                ApprovalFlow = ApprovalWorkFlowsDbMock._approvalWorkFlows.First(w => w.Id == 3),
                 Name = "Team Lead Approval",
                 Description = "Initial approval step by Team Lead.",
                 ApprovalLevel = 1,
@@ -21,10 +21,10 @@ namespace Vacation.API.Data.PreGenerated
                 },
                 IsFinalApprovalLevel = false
             },
-            new ApprovalWorkFlowStep
+            new ApprovalStep
             {
-                ApprovalWorkFlowStepId = 2,
-                ApprovalWorkFlow = ApprovalWorkFlowsDbMock._approvalWorkFlows.First(w => w.WorkFlowId == 3),
+                Id = 2,
+                ApprovalFlow = ApprovalWorkFlowsDbMock._approvalWorkFlows.First(w => w.Id == 3),
                 Name = "Manager Approval",
                 Description = "Final approval step by Manager.",
                 ApprovalLevel = 2,
@@ -36,10 +36,10 @@ namespace Vacation.API.Data.PreGenerated
                 },
                 IsFinalApprovalLevel = true
             },
-            new ApprovalWorkFlowStep
+            new ApprovalStep
             {
-                ApprovalWorkFlowStepId = 3,
-                ApprovalWorkFlow = ApprovalWorkFlowsDbMock._approvalWorkFlows.First(w => w.WorkFlowId == 1),
+                Id = 3,
+                ApprovalFlow = ApprovalWorkFlowsDbMock._approvalWorkFlows.First(w => w.Id == 1),
                 Name = "HR Department Approval",
                 Description = "Approval required from HR Department.",
                 ApprovalLevel = 1,
@@ -51,10 +51,10 @@ namespace Vacation.API.Data.PreGenerated
                 },
                 IsFinalApprovalLevel = true
             },
-            new ApprovalWorkFlowStep
+            new ApprovalStep
             {
-                ApprovalWorkFlowStepId = 4,
-                ApprovalWorkFlow = ApprovalWorkFlowsDbMock._approvalWorkFlows.First(w => w.WorkFlowId == 2),
+                Id = 4,
+                ApprovalFlow = ApprovalWorkFlowsDbMock._approvalWorkFlows.First(w => w.Id == 2),
                 Name = "IT Department Approval",
                 Description = "Approval required from IT Department.",
                 ApprovalLevel = 1,

@@ -12,7 +12,7 @@ namespace Vacation.API.Models
         public Position Position { get; set; } = new Position();
         public DateOnly? ProbationPeriodExpirationDate { get; set; }
         public DateOnly EmploymentStartDate { get; set; }
-        public bool IsCurrentEmployee { get; set; }
+        public bool IsCurrentEmployee { get; set; } // do I need it if I have CompanyLeaveDate? but what if I have employees who left and started again? 
         public DateOnly? CompanyLeaveDate { get; set; }
         public DateOnly CreatedAt { get; set; }
         public DateOnly UpdatedAt { get; set; }

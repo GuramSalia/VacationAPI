@@ -1,13 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\",
+  "WorkspaceRootPath": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|c:\\users\\g.salia\\source\\repos\\gs\\vacationapi\\vacation.api\\gs_steps.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:gs_steps.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|d:\\dotnet\\code\\vacationtracker\\vacationapi\\vacation.api\\controllers\\nonworkingdayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|c:\\users\\g.salia\\source\\repos\\gs\\vacationapi\\vacation.api\\models\\approvalstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:models\\approvalstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|c:\\users\\g.salia\\source\\repos\\gs\\vacationapi\\vacation.api\\models\\vacationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:models\\vacationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|c:\\users\\g.salia\\source\\repos\\gs\\vacationapi\\vacation.api\\models\\vacationapproval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:models\\vacationapproval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|c:\\users\\g.salia\\source\\repos\\gs\\vacationapi\\vacation.api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|c:\\users\\g.salia\\source\\repos\\gs\\vacationapi\\vacation.api\\models\\approvalflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:models\\approvalflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|c:\\users\\g.salia\\source\\repos\\gs\\vacationapi\\vacation.api\\data\\pregenerated\\approvalworkflowsdbmock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:data\\pregenerated\\approvalworkflowsdbmock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|c:\\users\\g.salia\\source\\repos\\gs\\vacationapi\\vacation.api\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|c:\\users\\g.salia\\source\\repos\\gs\\vacationapi\\vacation.api\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|c:\\users\\g.salia\\source\\repos\\gs\\vacationapi\\vacation.api\\controllers\\nonworkingdayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0088079-F35F-4D81-9C46-BBEB0DC0AA5E}|Vacation.API.csproj|solutionrelative:controllers\\nonworkingdayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,36 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApprovalWorkFlowsDbMock.cs",
+              "DocumentMoniker": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Data\\PreGenerated\\ApprovalWorkFlowsDbMock.cs",
+              "RelativeDocumentMoniker": "Data\\PreGenerated\\ApprovalWorkFlowsDbMock.cs",
+              "ToolTip": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Data\\PreGenerated\\ApprovalWorkFlowsDbMock.cs",
+              "RelativeToolTip": "Data\\PreGenerated\\ApprovalWorkFlowsDbMock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:44:20.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VacationApproval.cs",
+              "DocumentMoniker": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\VacationApproval.cs",
+              "RelativeDocumentMoniker": "Models\\VacationApproval.cs",
+              "ToolTip": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\VacationApproval.cs*",
+              "RelativeToolTip": "Models\\VacationApproval.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:08:02.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApprovalFlow.cs",
+              "DocumentMoniker": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\ApprovalFlow.cs",
+              "RelativeDocumentMoniker": "Models\\ApprovalFlow.cs",
+              "ToolTip": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\ApprovalFlow.cs",
+              "RelativeToolTip": "Models\\ApprovalFlow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:10:42.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NonWorkingDaysController.cs",
-              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Controllers\\NonWorkingDaysController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NonWorkingDaysController.cs",
-              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Controllers\\NonWorkingDaysController.cs",
-              "RelativeToolTip": "Controllers\\NonWorkingDaysController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAcwAwAAAAXAAAA",
+              "Title": "ApprovalStep.cs",
+              "DocumentMoniker": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\ApprovalStep.cs",
+              "RelativeDocumentMoniker": "Models\\ApprovalStep.cs",
+              "ToolTip": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\ApprovalStep.cs*",
+              "RelativeToolTip": "Models\\ApprovalStep.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T07:31:19.977Z",
+              "WhenOpened": "2024-09-10T11:20:55.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VacationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\VacationRequest.cs",
+              "RelativeDocumentMoniker": "Models\\VacationRequest.cs",
+              "ToolTip": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\VacationRequest.cs",
+              "RelativeToolTip": "Models\\VacationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:24:49.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Title": "GS_steps.txt",
+              "DocumentMoniker": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\GS_steps.txt",
+              "RelativeDocumentMoniker": "GS_steps.txt",
+              "ToolTip": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\GS_steps.txt*",
+              "RelativeToolTip": "GS_steps.txt*",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAABQAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-10T11:15:38.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T07:21:04.427Z",
+              "WhenOpened": "2024-09-10T11:32:47.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\Position.cs",
+              "RelativeDocumentMoniker": "Models\\Position.cs",
+              "ToolTip": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\Position.cs",
+              "RelativeToolTip": "Models\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:26:41.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Models\\Employee.cs*",
+              "RelativeToolTip": "Models\\Employee.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:26:49.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NonWorkingDaysController.cs",
+              "DocumentMoniker": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Controllers\\NonWorkingDaysController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NonWorkingDaysController.cs",
+              "ToolTip": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Controllers\\NonWorkingDaysController.cs",
+              "RelativeToolTip": "Controllers\\NonWorkingDaysController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:31:19.977Z",
               "EditorCaption": ""
             }
           ]

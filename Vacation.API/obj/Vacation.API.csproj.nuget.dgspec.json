@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Vacation.API.csproj": {}
+    "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Vacation.API.csproj": {}
   },
   "projects": {
-    "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Vacation.API.csproj": {
+    "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Vacation.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Vacation.API.csproj",
+        "projectUniqueName": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Vacation.API.csproj",
         "projectName": "Vacation.API",
-        "projectPath": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\Vacation.API.csproj",
-        "packagesPath": "C:\\Users\\guram\\.nuget\\packages\\",
-        "outputPath": "D:\\DOTNET\\CODE\\VacationTracker\\VacationAPI\\Vacation.API\\obj\\",
+        "projectPath": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\Vacation.API.csproj",
+        "packagesPath": "C:\\Users\\g.salia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\g.salia\\source\\repos\\GS\\VacationAPI\\Vacation.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\guram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\g.salia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

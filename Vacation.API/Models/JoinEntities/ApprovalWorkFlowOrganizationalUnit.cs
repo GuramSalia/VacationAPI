@@ -3,7 +3,7 @@
     public class ApprovalWorkFlowOrganizationalUnit
     {
         public int WorkFlowId { get; set; }
-        public ApprovalWorkFlow WorkFlow { get; set; } = new ApprovalWorkFlow();
+        public ApprovalFlow WorkFlow { get; set; } = new ApprovalFlow();
 
         public int OrganizationalUnitId { get; set; }
         public OrganizationalUnit OrganizationalUnit { get; set; } = new OrganizationalUnit();

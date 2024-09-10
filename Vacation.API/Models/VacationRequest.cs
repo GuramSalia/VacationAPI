@@ -13,8 +13,8 @@ namespace Vacation.API.Models
         public DateOnly NormalizedEndDate { get; set; }
         public LeaveType LeaveType { get; set; }
         public string? Description { get; set; }
-        public ApprovalWorkFlow ApprovalWorkFlow { get; set; } = new ApprovalWorkFlow();
-        public ApprovalWorkFlowStep? CurrentStep { get; set; }
+        public ApprovalFlow ApprovalWorkFlow { get; set; } = new ApprovalFlow();
+        public ApprovalStep? CurrentStep { get; set; }
         public bool IsWithdrawn { get; set; } = false;
     }
 }

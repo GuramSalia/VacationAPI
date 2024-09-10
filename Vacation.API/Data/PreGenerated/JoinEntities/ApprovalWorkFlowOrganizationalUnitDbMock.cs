@@ -16,7 +16,7 @@ namespace Vacation.API.Data.PreGenerated.JoinEntities
                 WorkFlowId = 3,             // "Approval by Position Team Lead"
                 OrganizationalUnitId = 2    // "Development Team"
             },
-            // "Standard Approval for IT Department" - WorkFlowId = 2
+            // "Standard Approval for IT Department" - Id = 2
             new ApprovalWorkFlowOrganizationalUnit
             {
                 WorkFlowId = 2,             // "Standard Approval for IT Department"

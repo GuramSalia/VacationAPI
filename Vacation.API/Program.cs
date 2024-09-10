@@ -4,6 +4,8 @@ using Vacation.API.Repositories.Repositories;
 using Vacation.API.Services;
 using Vacation.API.Services.Interfaces;
 
+//GS
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
